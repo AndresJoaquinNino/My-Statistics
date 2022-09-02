@@ -1,0 +1,152 @@
+{
+    "dataType": {
+        "genderTypes": [
+            "Masculino",
+            "Femenino",
+            "Otro"
+        ],
+        "rangesOfAge": [
+            "18-25",
+            "26-33",
+            "34-40",
+            "40+"
+        ],
+        "socialMedia": [
+            "Facebook",
+            "WhatsApp",
+            "Twitter",
+            "Instagram",
+            "TikTok"
+        ],
+        "rangeOfTime": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "surveyData": [
+        {
+            "email": "xxxx_xxxx@ejemplo.com",
+            "sex": "Masculino",
+            "age": "18-25",
+            "favoriteSocialMedia": "Facebook",
+            "timeInFacebook": "1",
+            "timeInWhatsApp": "1",
+            "timeInTwitter": "1",
+            "timeInInstagram": "0",
+            "timeInTikTok": "0",
+            "id": 1
+        },
+        {
+            "email": "zzzz_zzzz@ejemplo.com",
+            "sex": "Femenino",
+            "age": "26-33",
+            "favoriteSocialMedia": "Facebook",
+            "timeInFacebook": "2",
+            "timeInWhatsApp": "4",
+            "timeInTwitter": "1",
+            "timeInInstagram": "1",
+            "timeInTikTok": "0",
+            "id": 2
+        },
+        {
+            "email": "yyyy_yyyy@ejemplo.com",
+            "sex": "Masculino",
+            "age": "18-25",
+            "favoriteSocialMedia": "Facebook",
+            "timeInFacebook": "2",
+            "timeInWhatsApp": "0",
+            "timeInTwitter": "1",
+            "timeInInstagram": "0",
+            "timeInTikTok": "2",
+            "id": 3
+        },
+        {
+            "email": "wwww_wwww@ejemplo.com",
+            "sex": "Femenino",
+            "age": "40+",
+            "favoriteSocialMedia": "WhatsApp",
+            "timeInFacebook": "2",
+            "timeInWhatsApp": "2",
+            "timeInTwitter": "1",
+            "timeInInstagram": "3",
+            "timeInTikTok": "2",
+            "id": 4
+        },
+        {
+            "email": "vvvv_vvvv@ejemplo.com",
+            "sex": "Femenino",
+            "age": "18-25",
+            "favoriteSocialMedia": "TikTok",
+            "timeInFacebook": "2",
+            "timeInWhatsApp": "1",
+            "timeInTwitter": "2",
+            "timeInInstagram": "2",
+            "timeInTikTok": "3",
+            "id": 5
+        },
+        {
+            "email": "uuuu_uuuu@ejemplo.com",
+            "sex": "Masculino",
+            "age": "34-40",
+            "favoriteSocialMedia": "TikTok",
+            "timeInFacebook": "3",
+            "timeInWhatsApp": "1",
+            "timeInTwitter": "2",
+            "timeInInstagram": "4",
+            "timeInTikTok": "1",
+            "id": 6
+        },
+        {
+            "email": "ssss_ssss@ejemplo.com",
+            "sex": "Masculino",
+            "age": "34-40",
+            "favoriteSocialMedia": "Instagram",
+            "timeInFacebook": "0",
+            "timeInWhatsApp": "1",
+            "timeInTwitter": "0",
+            "timeInInstagram": "4",
+            "timeInTikTok": "1",
+            "id": 7
+        },
+        {
+            "email": "pppp_pppp@ejemplo.com",
+            "sex": "Femenino",
+            "age": "34-40",
+            "favoriteSocialMedia": "Instagram",
+            "timeInFacebook": "5",
+            "timeInWhatsApp": "1",
+            "timeInTwitter": "2",
+            "timeInInstagram": "4",
+            "timeInTikTok": "1",
+            "id": 8
+        },
+        {
+            "email": "dddd_dddd@ejemplo.com",
+            "sex": "Femenino",
+            "age": "40+",
+            "favoriteSocialMedia": "WhatsApp",
+            "timeInFacebook": "1",
+            "timeInWhatsApp": "3",
+            "timeInTwitter": "0",
+            "timeInInstagram": "0",
+            "timeInTikTok": "0",
+            "id": 9
+        },
+        {
+            "email": "aaaa_aaaa@gmail.com",
+            "sex": "Femenino",
+            "age": "18-25",
+            "favoriteSocialMedia": "Twitter",
+            "timeInFacebook": "1",
+            "timeInWhatsApp": "2",
+            "timeInTwitter": "4",
+            "timeInInstagram": "0",
+            "timeInTikTok": "0",
+            "id": 10
+        }
+    ]
+}

@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# My statistics
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este es un pequeño proyecto donde se puedes registrar datos y ver estadísticas de ellos usando **Json-server** como el backend.
 
-## Available Scripts
+## Como iniciar el proyecto en local:
 
-In the project directory, you can run:
+- Crear un archivo **.env** copiando el contenido del **.env.example**
 
-### `npm start`
+- Ve al directorio del proyecto y instala las dependencias con `npm install`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Para correr el **frontend** deberás usar `npm run start`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Para correr el **backend** deberás usar `npm run backend`
 
-### `npm test`
+## Como hacer uso del proyecto:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Una vez iniciado el proyecto podrás ver:
 
-### `npm run build`
+<img align="left" alt="Inicio" src="./src/docs/Inicio.png">
+&nbsp;
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para empezar a registrar datos puede hacer uso del botón de **Formulario** que esta en la navbar o en el botón azul que dice **Registrar Datos**. Ellos te llevaran a la siguiente pagina.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img align="left" alt="Formulario" src="./src/docs/Formulario.png">
+&nbsp;
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Una vez registrado los datos puedes empezar a ver la estadísticas si usas el botón de **Estadísticas** que esta en la navbar o volviendo al inicio dándole click al botón **Ver Estadísticas**. Ellos te llevaran a ver los datos.
 
-### `npm run eject`
+<img align="left" alt="Estadísticas" src="./src/docs/Estadisticas.png">
+&nbsp;
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Algunas cosas a tomar en cuenta:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Si se te olvida iniciar el backend o tienes algún problema con el aparecerá el siguiente mensaje:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img align="left" alt="Mensaje de error" src="./src/docs/Fallos.png">
+&nbsp;
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Si te gustan ver errores **404 - Not Found** puedes jugar con la url y ver el error:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img align="left" alt="Error 404" src="./src/docs/NoEncontrada.png">

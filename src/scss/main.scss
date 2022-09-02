@@ -1,0 +1,28 @@
+@use './variables' as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-content {
+    position: relative;
+    width: min(1080px, 100%);
+    margin: 0 auto;
+    padding: 0 0.5em;
+    min-height: calc(100vh - $footer-height);
+}
+
+.screen-center {
+    height: calc(90vh - $footer-height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@import '~bootstrap/scss/bootstrap.scss';

@@ -1,0 +1,9 @@
+@use '../variables' as *;
+
+.footer {
+    background-image: url('./../../img/footer.svg');
+    width: 100%;
+    height: $footer-height;
+    display: flex;
+    align-items: flex-end;
+}
